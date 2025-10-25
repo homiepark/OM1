@@ -85,3 +85,17 @@ If you have any questions or need help with the contribution process, feel free 
 *   Join our [developer telegram group](https://t.me/openminddev).
 
 Thank you for contributing to OM1!
+
+---
+
+## Security Policy
+
+If you discover a security issue, **do not open a public GitHub issue**.  
+Please report it privately to [security@openmind.org](mailto:security@openmind.org).  
+We will acknowledge and respond within 72 hours.
+
+## Secret Management Guidelines
+
+- Never commit API keys, tokens, or other secrets.
+- Use `.env` files or environment variables to store credentials.
+- If a secret is accidentally committed, rotate it immediately and open a PR to remove it from history.
